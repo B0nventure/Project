@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Your Portfolio</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <!-- External CSS -->
+        <link rel="stylesheet" href="projectp.css">
+        <!-- Font Awesome for icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+    <body>
+    
+        <!-- Navigation Bar with Logo -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="Images/favicon.jpg" alt="Logo" width="30" height="30" class="d-inline-block align-top">
+                    Omwaga Portfolio
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#socials">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+        <!-- Header Section -->
+        <header class="text-center py-5">
+            <h1>Patrick Omwaga</h1>
+            <p>Web Developer</p>
+        </header>
+    
+        <!-- About Section with Image -->
+        <section id="about" class="bg-light py-5">
+            <div class="container">
+                <h2 class="text-center mb-4 text-info">About Me</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="Images/_NES3414.jpg" alt="About Me" class="img-fluid rounded">
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            I am a versatile and highly motivated professional with a strong background in both web development and content writing. With
+                            a deep passion for creating engaging and user-friendly websites, I bring to the table a solid foundation in front-end and back-end
+                            development, including proficiency in HTML, CSS, JavaScript, and various web frameworks. I am skilled at turning complex ideas
+                            into clean, responsive, and visually appealing websites that not only meet client goals but also provide an exceptional user
+                            experience.
+                        </p>
+                       
+                        <!-- Add more about me content as needed -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Portfolio Section with Bootstrap 5 Cards -->
+        <section id="portfolio" class="bg-light py-5">
+            <div class="container">
+                <h2 class="text-center mb-4 text-info">Project Portfolio</h2>
+    
+                <div class="row">
+    
+                    <!-- Portfolio Item 1 -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="Images/mtra.png" class="card-img-top" alt="Money Transfer App">
+                            <div class="card-body">
+                                <h5 class="card-title">Money Transfer App</h5>
+                                <p class="card-text">Mobile transfer apps, also known as mobile payment apps, offer a convenient and secure way to make P2P (peer-to-peer) payments without the need for cash or physical cards.</p>
+                                <a href="#" class="btn btn-info">Show work</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Portfolio Item 2 -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="Images/health.jpg" class="card-img-top" alt="Health">
+                            <div class="card-body">
+                                <h5 class="card-title">Health Tracker Web App</h5>
+                                <p class="card-text">Application designed to help users monitor and manage their physical activity, health metrics, and wellness goals. It typically includes features like tracking workouts, counting steps, monitoring heart rate, providing nutrition information, and setting fitness goals.</p>
+                                <a href="#" class="btn btn-info">Show work</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Portfolio Item 3 -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="Images/travel.jpeg" class="card-img-top" alt="Travel Assistant App">
+                            <div class="card-body">
+                                <h5 class="card-title">Travel Assistant App</h5>
+                                <p class="card-text">A virtual travel assistance can help such a traveler to book the right hotels, find the travel destinations, assist in ticket cancellation, rebooking or getting any information requirements to enjoy the stay as much as possible.</p>
+                                <a href="#" class="btn btn-info">Show work</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+
+    <!-- Skills Section with Accordion -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 text-info">Skills</h2>
+
+            <div class="accordion" id="skillsAccordion">
+
+                <!-- Skill 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingHTML">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHTML" aria-expanded="true" aria-controls="collapseHTML">
+                            HTML5
+                        </button>
+                    </h2>
+                    <div id="collapseHTML" class="accordion-collapse collapse show" aria-labelledby="headingHTML" data-bs-parent="#skillsAccordion">
+                        <div class="accordion-body">
+                            Proficient in creating structured and semantic web pages using HTML5.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingCSS">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCSS" aria-expanded="false" aria-controls="collapseCSS">
+                            CSS
+                        </button>
+                    </h2>
+                    <div id="collapseCSS" class="accordion-collapse collapse" aria-labelledby="headingCSS" data-bs-parent="#skillsAccordion">
+                        <div class="accordion-body">
+                            Skilled in styling web pages using CSS3, including responsive design and animations.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingJS">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseJS" aria-expanded="false" aria-controls="collapseJS">
+                            JavaScript
+                        </button>
+                    </h2>
+                    <div id="collapseJS" class="accordion-collapse collapse" aria-labelledby="headingJS" data-bs-parent="#skillsAccordion">
+                        <div class="accordion-body">
+                            Proficient in client-side scripting using JavaScript, including ES6 features.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more skills as needed -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Icons -->
+    <section id="socials" class="bg-light py-5">
+        <div class="container text-center">
+            <h2 class="text-center mb-4 text-info">Connect with Me</h2>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/" target="_blank" class="text-dark"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://twitter.com/bonnie_omwaga" target="_blank" class="text-dark"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="https://ke.linkedin.com/" target="_blank" class="text-dark"><i class="fab fa-linkedin fa-2x"></i></a>
+                <!-- Add more social media links and icons as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Section for Feedback -->
+    <section id="feedback" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 text-info">Leave Feedback</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="mb-3">
+                    <label for="feedback" class="form-label">Feedback</label>
+                    <textarea class="form-control" id="feedback" rows="4" placeholder="Your Feedback"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 text-info">Client Reviews</h2>
+
+            <!-- Review 1 -->
+            <div class="card mb-3">
+                <div class="card-body">
+                    <p class="card-text">"Great work! The website looks amazing, and the attention to detail is impressive. Highly recommended."</p>
+                    <p class="card-text"><strong>John Doe</strong></p>
+                </div>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="card mb-3">
+                <div class="card-body">
+                    <p class="card-text">"Fantastic developer! Easy to work with and delivered the project ahead of schedule."</p>
+                    <p class="card-text"><strong>Roman Reigns</strong></p>
+                </div>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="card mb-3">
+                <div class="card-body">
+                    <p class="card-text">"Impressed with the creativity and professionalism. Will definitely collaborate again in the future."</p>
+                    <p class="card-text"><strong>Prittney Kariuki</strong></p>
+                </div>
+            </div>
+
+            <!-- Add more reviews as needed -->
+
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 Bonventure. All rights reserved.</p>
+    </footer>
+
+   <!-- Bootstrap JS and Popper.js -->
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+   <!-- Your custom JavaScript goes here -->
+   <script>
+       // Custom JavaScript code for changing header background color on scroll
+       window.addEventListener('scroll', function() {
+           const header = document.querySelector('header');
+           const scrollPos = window.scrollY;
+
+           if (scrollPos > 50) {
+               header.style.backgroundColor = '#212529';
+           } else {
+               header.style.backgroundColor = 'transparent';
+           }
+       });
+   </script>
+
+
+</body>
+</html>
